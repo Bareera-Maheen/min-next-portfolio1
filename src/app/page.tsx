@@ -18,7 +18,7 @@ const Homepage = () => {
       <Input type="email" placeholder="Email" />
       <Button type="submit">Subscribe</Button>
     </div>
-
+<h1>hiiiiiiiiiiiiiiiiiiiiiiiii</h1>
     </div>
     
   )
