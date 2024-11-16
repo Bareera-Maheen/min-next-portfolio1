@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/header";
 import Footer from "@/components/footer";
 import { JetBrains_Mono} from "next/font/google";
-
+import PageTransition from "@/components/PageTransition";
 const jetbrainsMono=JetBrains_Mono({subsets:["latin"],weight:["100","200","300","400","500","600","700","800"] ,variable:"--font-jetbrainsMono"});
 
 export const metadata: Metadata = {
@@ -23,8 +23,11 @@ export default function RootLayout({
         className={`${jetbrainsMono.variable}  antialiased`}
       >
         <Navbar />
-        {children}
+        
+        <PageTransition>{children}</PageTransition>
+       
         <Footer/>
+        
       </body>
     </html>
   );
