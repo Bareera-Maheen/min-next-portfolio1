@@ -14,6 +14,10 @@ const links: LinkItem[] = [
     path: "/"
   },
   {
+    name: "resume",
+    path: "/resume"
+  },
+  {
     name: "services",
     path: "/services"
   },

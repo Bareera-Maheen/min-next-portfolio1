@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import Navbar from "./navbar";
+import MobileNav from "./MobileNav"
 
 const Head = () => {
   
@@ -14,14 +15,16 @@ const Head = () => {
 
 <div className="hidden xl:flex items-center gap-8">
   <Navbar/>
- <Link href="/contact"><Button className="bg-accent-hover">hire me</Button></Link></div>
+ <Link href="/contact"><Button className=" hover:bg-primary hover:text-accent">hire me</Button></Link></div>
 
 
 
 
 
  {/* mobile-nav */}
-<div className="xl:hidden">bb</div>
+<div className="xl:hidden">
+  <MobileNav/>
+</div>
 
 
 

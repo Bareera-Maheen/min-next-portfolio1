@@ -31,8 +31,8 @@ export default {
   			
   			
   			accent: {
-  				DEFAULT: '#00ff99',
-				hover:"#00c187",
+  				DEFAULT: '#ffe761',
+				hover:"#ffd500",
   				},
   			
   			
