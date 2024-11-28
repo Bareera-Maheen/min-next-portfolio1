@@ -10,7 +10,7 @@ import {motion} from "framer-motion";
 
 // data
 const about ={
-  title:'About me ',
+  title:'About Me ',
   description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quia laboriosam maiores aut excepturi similique esse, eum dolorem illum, provident dolore fugit ducimus cupiditate obcaecati expedita, nihil nisi a! Tenetur",
 info:[
   {
@@ -174,7 +174,7 @@ const Resume = () => {
   <div className="min-h-[70vh] w-full ">
   <TabsContent value="experience" className="w-full">
     <div className="flex flex-col xl:text-left text-center gap-[30px]">
-      <h3 className="text-3xl  font-bold">{experience.title}</h3> 
+      <h3 className="text-3xl text-accent font-bold">{experience.title}</h3> 
   <p className="m-x-[600px] text-white/80 mx-auto xl:mx-0" >
   {experience.description}</p> <ScrollArea className="h-[400px]">
     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">{experience.items.map((item,index)=>{
@@ -193,7 +193,7 @@ const Resume = () => {
     </TabsContent>
     
   <TabsContent value="education" className="w-full"> <div className="flex flex-col xl:text-left text-center gap-[30px]">
-      <h3 className="text-3xl  font-bold">{education.title}</h3> 
+      <h3 className="text-3xl text-accent font-bold">{education.title}</h3> 
   <p className="m-x-[600px] text-white/80 mx-auto xl:mx-0" >
   {education.description}</p> <ScrollArea className="h-[400px]">
     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">{education.items.map((item,index)=>{
@@ -212,7 +212,7 @@ const Resume = () => {
     </TabsContent>
      
   <TabsContent value="skills" className="w-full"> <div className="flex flex-col xl:text-left text-center gap-[30px]">
-      <h3 className="text-3xl  font-bold">{skills.title}</h3> 
+      <h3 className="text-3xl   text-accent font-bold">{skills.title}</h3> 
   <p className="m-x-[600px] text-white/80 mx-auto xl:mx-0" >
   {skills.description}</p> <ScrollArea className="h-[400px]">
     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">{skills.skillList.map((skillList,index)=>{
@@ -229,7 +229,7 @@ const Resume = () => {
     </TabsContent>
    
   <TabsContent value="about" className="w-full"> <div className="flex flex-col xl:text-left text-center gap-[30px]">
-      <h3 className="text-3xl  font-bold">{about.title}</h3> 
+      <h3 className="text-3xl text-accent font-bold">{about.title}</h3> 
   <p className="m-x-[600px] text-white/80 mx-auto xl:mx-0" >
   {about.description}</p> <ScrollArea className="h-[400px]">
     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">{about.info.map((info,index)=>{
