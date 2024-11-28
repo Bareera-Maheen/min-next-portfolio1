@@ -17,7 +17,7 @@ import Socials1 from "@/components/socials1";
        
         <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/1.jfif"   height={"150px"} />
+          <img src="/images/1.jfif"   alt="" />
           <h2 className="mb-10 text-3xl font-bold text-center">TO DO</h2>
             
             <br />
@@ -33,7 +33,7 @@ import Socials1 from "@/components/socials1";
        
          <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/5.jfif"  />
+          <img src="/images/5.jfif"  alt="" />
           <h2 className="mb-10 text-3xl font-bold text-center">CALCULATOR</h2>
             
            <br/>
@@ -52,7 +52,7 @@ import Socials1 from "@/components/socials1";
           
          <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/4.jfif"  />
+          <img src="/images/4.jfif"  alt="" />
           <h2 className="mb-10 text-3xl font-bold text-center">TIMER</h2>
             
             <br />
@@ -68,7 +68,7 @@ import Socials1 from "@/components/socials1";
           
            <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/6.jfif"  />
+          <img src="/images/6.jfif"  alt="" />
           <h2 className="mb-10 text-3xl font-bold text-center">PORTFOLIO</h2>
             
             <br />
