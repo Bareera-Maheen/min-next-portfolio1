@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaInstagram, FaLinkedinIn, FaAdversal } from "react-icons/fa";
 
 
 interface Social {
@@ -9,9 +9,9 @@ interface Social {
 
 // Array of social media items
 const socials: Social[] = [
-  { icon: <FaGithub />, path: '' },
-  { icon: <FaLinkedinIn />, path: '' },
-  { icon: <FaFacebook />, path: '' },
+  { icon: <FaGithub />, path: 'https://github.com/Bareera-Maheen' },
+  { icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/bareerah-khanzada-1b5896227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+  { icon: <FaFacebook />, path: 'https://www.facebook.com/share/12L5NCQhpVp/' },
   { icon: <FaInstagram />, path: '' },
 ];
 

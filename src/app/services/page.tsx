@@ -8,14 +8,14 @@ const services=[
 {
   num:1,
   title:"Web Devlopment",
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias voluptas iste eius neque numquam consequuntur quaerat officia veritatis vel, aspernatur dicta soluta autem nulla fugit suscipit incidunt ipsam reprehenderit",
+  description:"Building functional and dynamic websites tailored to your needs.",
   href:""
 
 },
 {
   num:2,
   title:"ui/ux design",
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias voluptas iste eius neque numquam consequuntur quaerat officia veritatis vel, aspernatur dicta soluta autem nulla fugit suscipit incidunt ipsam reprehenderit",
+  description:"Crafting intuitive and visually appealing user interfaces and experiences.",
   href:""
 
 },
@@ -23,7 +23,7 @@ const services=[
 {
   num:3,
   title:"logo design(canva)",
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias voluptas iste eius neque numquam consequuntur quaerat officia veritatis vel, aspernatur dicta soluta autem nulla fugit suscipit incidunt ipsam reprehenderit",
+  description:"Creating professional and creative logos to represent your brand",
   href:""
 
 },
@@ -31,7 +31,7 @@ const services=[
 {
   num:4,
   title:"SEO",
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias voluptas iste eius neque numquam consequuntur quaerat officia veritatis vel, aspernatur dicta soluta autem nulla fugit suscipit incidunt ipsam reprehenderit",
+  description:"Optimizing websites to improve search engine rankings and drive organic traffic.",
   href:""
 
 }

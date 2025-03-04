@@ -9,8 +9,8 @@ interface Social11 {
 
 // Array of social media items
 const socials: Social11[] = [
-  { icon: <FaGithub />, path: '' },
-  { icon: <FaLinkedinIn />, path: '' },
+  { icon: <FaGithub />, path: 'https://github.com/Bareera-Maheen' },
+  { icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/bareerah-khanzada' },
   
 ];
 

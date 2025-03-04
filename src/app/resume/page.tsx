@@ -12,7 +12,7 @@ import tailwindConfig from "../../../tailwind.config";
 // data
 const about ={
   title:'About Me ',
-  description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quia laboriosam maiores aut excepturi similique esse, eum dolorem illum, provident dolore fugit ducimus cupiditate obcaecati expedita, nihil nisi a! Tenetur",
+  description:"Hello! I am Bareerah Maheen, a frontend developer passionate about creating visually stunning and highly functional websites. I specialize in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, and Next.js to build responsive, user-friendly designs that work seamlessly across all devices. I love combining clean code with creative design to bring ideas to life. When not coding, I explore the latest web development trends and tools to enhance my skills. Let’s collaborate and build something incredible together!",
 info:[
   {
   fieldName:"Name",
@@ -57,8 +57,8 @@ info:[
 const experience={
   icons:'/assets/resume/badge.svg',
   title:'My Experience',
-  description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, accusantium non quam necessitatibus sint at quod, dolores, nesciunt quas voluptatibus ea suscipit exercitationem assumenda fuga similique quae repudiandae asperiores dolor',
-items:[
+  description:'I have hands-on experience working with HTML and CSS to create structured and visually appealing websites. I’ve used Tailwind CSS to build modern, responsive designs and JavaScript to add dynamic functionality. Additionally, I’ve worked with TypeScript to write scalable and maintainable code and Next.js to develop fast, SEO-friendly, and scalable web applications.',
+  items:[
   {
 company:"Web Solution",
 position:"frontend Developer",
@@ -94,13 +94,13 @@ duration:"0"
 const education={
   
   title:'My Educatio',
-  description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, accusantium non quam necessitatibus sint at quod, dolores, nesciunt quas voluptatibus ea suscipit exercitationem assumenda fuga similique quae repudiandae asperiores dolor',
+  description:'I’m currently studying Linguistics, but I’ve found my real interest in frontend development. I’ve learned HTML, CSS, Tailwind CSS, JavaScript, TypeScript, and Next.js on my own, and I enjoy using these tools to build websites that are both functional and visually appealing.',
 items:[
   {
 
 institue:"udergraduate(NED)",
 field:"English Linguistic and Applied Science",
-duration:"2023-2027"
+duration:"2021-2025"
   },
   {
     institue:"Intermediate(Crescent)",
@@ -126,8 +126,8 @@ duration:"2023-2027"
 const skills={
   
   title:'My Skills',
-  description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, accusantium non quam necessitatibus sint at quod, dolores, nesciunt quas voluptatibus ea suscipit exercitationem assumenda fuga similique quae repudiandae asperiores dolor',
-skillList:[
+  description:'I work with HTML and CSS to build and style websites, Tailwind CSS for modern and responsive designs, JavaScript to add interactivity, TypeScript for scalable and type-safe code, and Next.js to develop fast, SEO-friendly, and scalable web applications.',
+  skillList:[
   {
 icon:<FaHtml5/>,
 name:"html 5"

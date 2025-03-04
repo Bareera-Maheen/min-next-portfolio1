@@ -15,7 +15,7 @@ const Head = () => {
 
 <div className="hidden xl:flex items-center gap-8">
   <Navbar/>
- <Link href="/contact"><Button className=" hover:bg-primary hover:text-accent">hire me</Button></Link></div>
+ </div>
 
 
 
@@ -25,6 +25,7 @@ const Head = () => {
 <div className="xl:hidden">
   <MobileNav/>
 </div>
+
 
 
 

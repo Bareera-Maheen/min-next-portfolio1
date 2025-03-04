@@ -1,13 +1,16 @@
 
 
 import Socials1 from "@/components/socials1";
+import Image from "next/image";
+import Link from "next/link";
+
 
 
 
  const Projects = () => {
   return (
    <main>
- {/* <Card image="profile.jpg" /> */}
+ 
   {/* Image Card Section */}
   <section  id="features" className="container py-20 mx-auto ">
         <h2 className="mb-10 text-accent text-4xl  font-bold text-center">PROJECTS</h2>
@@ -17,13 +20,11 @@ import Socials1 from "@/components/socials1";
        
         <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/1.jfif"   alt="" />
-          <h2 className="mb-10 text-3xl font-bold text-center">TO DO</h2>
+          <Image src="/images/3RD.jpg"   alt="first" height="300" width="300" />
+          <h2 className="mb-10 text-3xl font-bold text-center"> <Link href="https://main-capstone-project-q-2.vercel.app/">E-COMERCE WEBSITE</Link></h2>
             
             <br />
-            <Socials1 containerStyles="flex gap-5" iconStyles="w-8 h-8 border border-accent rounded-full flex justify-center item-center 
-   text-accent text-base hover:bg-accent hover:text-primary flex items-center hover:transition-all duration-600"/>
-          
+               
           </div>
           
          </div>
@@ -33,13 +34,11 @@ import Socials1 from "@/components/socials1";
        
          <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/5.jfif"  alt="" />
-          <h2 className="mb-10 text-3xl font-bold text-center">CALCULATOR</h2>
+          <Image src="/images/blog.jpeg"  alt="2nd" height="300" width="300"/>
+          <h2 className="mb-10 text-3xl font-bold text-center"><Link href="https://main-capstone-project-q-2.vercel.app/">BLOG POST WEBSITE</Link></h2>
             
            <br/>
-            <Socials1 containerStyles="flex gap-5" iconStyles="w-8 h-8 border border-accent rounded-full flex justify-center item-center 
-   text-accent text-base hover:bg-accent hover:text-primary flex items-center hover:transition-all duration-600"/>
-          
+           
           </div>
           
          </div>
@@ -52,13 +51,11 @@ import Socials1 from "@/components/socials1";
           
          <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/4.jfif"  alt="" />
-          <h2 className="mb-10 text-3xl font-bold text-center">TIMER</h2>
+          <Image src="/images/2.webp"  alt="3rd"height="300" width="300" />
+          <h2 className="mb-10 text-3xl font-bold text-center"><Link href="https://github001-static.vercel.app/"></Link>PORTFOLIO (HTML,CSS,JS )</h2>
             
             <br />
-            <Socials1 containerStyles="flex gap-5" iconStyles="w-8 h-8 border border-accent rounded-full flex justify-center item-center 
-   text-accent text-base hover:bg-accent hover:text-primary flex items-center hover:transition-all duration-600"/>
-          
+               
           </div>
           
          </div>
@@ -68,17 +65,18 @@ import Socials1 from "@/components/socials1";
           
            <div className="flex gap-1 space-x-4 ">
           <div className="p-6 transition-transform transform rounded-xl bg-[#333335]  border-spacing-10 border border-accent-hover shadow-md hover:scale-105 w-60">
-          <img src="/images/6.jfif"  alt="" />
-          <h2 className="mb-10 text-3xl font-bold text-center">PORTFOLIO</h2>
+            
+          <Image src="/images/6.jfif"  alt="4th" height="300" width="300" />
+          <h2 className="mb-10 text-3xl font-bold text-center"><Link href="https://min-next-portfolio1-g8n2-q395nata4-bareerah-s-projects.vercel.app/">PORTFOLIO  (NEXT.JS, TAILWIND)</Link></h2>
             
             <br />
-            <Socials1 containerStyles="flex gap-5" iconStyles="w-8 h-8 border border-accent rounded-full flex justify-center item-center 
-   text-accent text-base hover:bg-accent hover:text-primary flex items-center hover:transition-all duration-600"/>
-          
+               
           </div>
           
          </div>
            </div>
+
+          
            </div>
         
         
